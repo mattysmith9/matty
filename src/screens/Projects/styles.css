@@ -1,0 +1,28 @@
+.projects-page {
+	padding-top: 2rem;
+	min-height: 100vh;
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+h1 {
+	padding: 1rem 0;
+	font-size: 3rem;
+	text-align: center;
+	color: #607d8b;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+}
+
+.content-grid {
+	flex: auto;
+}
+
+.projects-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
