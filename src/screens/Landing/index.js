@@ -9,7 +9,7 @@ const Landing = (PropTypes, context) => {
 			<Nav />
 			<div className="intro-wrapper">
 				<div className="name">mattySmith</div>
-				<div className="info">web developer | engineer | aspiring polyglot</div>
+				<div className="info">web developer | engineer | aspiring polyglot | avid golfer</div>
 			</div>
 		</div>
 	);

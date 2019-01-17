@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const SkillsList = (props, context) => {
+const SkillsList = props => {
 	if (props.render) return props.render;
 	else
 		return (
@@ -11,8 +11,8 @@ const SkillsList = (props, context) => {
 					<div className="skills-item__desc">
 						<span>
 							Experience with <br />
-							HTML, CSS and JavaScript. I also have Experience building small
-							single page applications with React. (Including this page)
+							HTML, CSS and JavaScript. I also have Experience building single
+							page applications with React. (Including this page)
 						</span>
 					</div>
 				</div>
