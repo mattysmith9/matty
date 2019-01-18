@@ -12,12 +12,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				<div className="footer-item">
-					<div className="title">
-						Burlington, Vermont
-						<li>802.598.9466</li>
-						<p>matthewcsmith18@gmail.com</p>
-					</div>
+				<div className="footer-comp">
 					<div className="footer-content">
 						<span>
 							<a href="https://www.linkedin.com/in/mattysmith9/">
@@ -49,6 +44,13 @@ class Footer extends Component {
 								/>
 							</a>
 						</span>
+						<div>
+							<div className="footer-title">
+								Burlington, Vermont
+								<li>802.598.9466</li>
+								<p>matthewcsmith18@gmail.com</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</footer>

@@ -7,15 +7,6 @@
 	background-color: #ffffff;
 }
 
-main {
-	display: flex;
-	flex: 1 0 auto;
-	flex-direction: column;
-	justify-content: center;
-	padding: 3.25rem 1.5rem 1rem;
-	text-align: center;
-}
-
 .intro-wrapper {
 	flex: auto;
 	display: flex;
@@ -26,18 +17,24 @@ main {
 
 .name {
 	font-family: 'Montserrat', sans-serif;
+	background: -webkit-linear-gradient(
+		#607d8b,
+		#6e8996,
+		#7c95a1,
+		#8ba1ad,
+		#99aeb8
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 6rem;
-	line-height: 4rem;
+	line-height: 5rem;
 	padding-bottom: 1rem;
-	color: #607d8b;
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 .info {
-	font-size: 1.375rem;
+	font-size: 1.3rem;
 	margin: 0.8rem 0;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 }
-
-

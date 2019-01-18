@@ -1,26 +1,28 @@
-.skills {
+.skills-page {
 	padding-top: 2rem;
 	min-height: 100vh;
 	display: flex;
-	flex: 0 2 auto;
+	flex: 0 1 auto;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #ffffff;
-	background-blend-mode: normal, color-burn;
+	margin-top: 100px;
 }
 
-.skill {
-	font-weight: 100;
+.content-grid {
+	flex: auto;
+}
+
+h1 {
+	padding: 1rem 0;
+	font-size: 3rem;
+	text-align: center;
 	color: #607d8b;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-	font-size: 3rem;
 }
 
 .skills-wrapper {
-	flex: auto;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
-	text-align: center;
 }

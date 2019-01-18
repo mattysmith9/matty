@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './App.css';
 import Landing from './screens/Landing';
 import MyStory from './screens/Story';
 import Projects from './screens/Projects';

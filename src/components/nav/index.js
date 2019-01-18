@@ -35,7 +35,7 @@ class Nav extends Component {
 					</div>
 					<div
 						className="menu-item"
-						onClick={e => this.scrollToScreen('.skill')}
+						onClick={e => this.scrollToScreen('.skills-page')}
 					>
 						skills
 					</div>
@@ -47,7 +47,7 @@ class Nav extends Component {
 					</div>
 					<div
 						className="menu-item"
-						onClick={e => this.scrollToScreen('.footer-item')}
+						onClick={e => this.scrollToScreen('.footer-comp')}
 					>
 						{' '}
 						getInTouch

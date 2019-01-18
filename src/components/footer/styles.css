@@ -10,9 +10,9 @@ footer {
 	justify-content: center;
 	text-align: center;
 }
-.title {
+.footer-title {
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: #354a54;
 
 	font-size: 1.2rem;
 }
@@ -22,13 +22,13 @@ h2 {
 	margin-left: 35px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
-	color: #607d8b;
+	color: #354a54;
 }
 
 ul {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
-	color: #607d8b;
+	color: #354a54;
 	column-span: all;
 }
 
@@ -36,19 +36,8 @@ li {
 	list-style: none;
 }
 
-button {
-	border: 1px solid #607d8b;
-	border-radius: 5px;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	color: #607d8b;
-	align-self: auto;
-}
-
-button:hover {
+img:hover {
 	cursor: pointer;
-	background-image: linear-gradient(to left, #74919f 0%, #607d8b 100%);
-	background-color: #607d8b;
-	color: #ffffff;
-	transition: ease;
+	transform: scale(1.2);
+	transition: ease-in-out;
 }
