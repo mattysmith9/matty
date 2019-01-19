@@ -18,23 +18,25 @@
 .name {
 	font-family: 'Montserrat', sans-serif;
 	background: -webkit-linear-gradient(
-		#607d8b,
-		#6e8996,
-		#7c95a1,
-		#8ba1ad,
-		#99aeb8
+		#0a1e3a,
+		#234367,
+		#4b6882,
+		#456376,
+		#607d8b
 	);
+
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-size: 6rem;
-	line-height: 5rem;
+	font-size: 8rem;
+	line-height: 7rem;
+	letter-spacing: -0.2rem;
 	padding-bottom: 1rem;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 .info {
 	font-size: 1.3rem;
 	margin: 0.8rem 0;
 	font-family: 'Montserrat', sans-serif;
-	color: black;
+	color: #0a1e3a;
 }

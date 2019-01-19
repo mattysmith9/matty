@@ -16,7 +16,15 @@ h1 {
 	padding: 1rem 0;
 	font-size: 3rem;
 	text-align: center;
-	color: #607d8b;
+	background: -webkit-linear-gradient(
+		#0a1e3a,
+		#234367,
+		#4b6882,
+		#456376,
+		#607d8b
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
 }

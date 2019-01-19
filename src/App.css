@@ -4,19 +4,12 @@ body:before,
 body:after {
 	content: '' '';
 	background-image: linear-gradient(
-		to bottom,
-		#41545e,
-		#425561,
-		#435664,
-		#455767,
-		#47586a,
-		#47576a,
-		#485769,
-		#485669,
-		#465466,
-		#445163,
-		#434f61,
-		#414d5e
+		to right bottom,
+		#4b626d,
+		#4b626d,
+		#4b626d,
+		#4b616d,
+		#4b616d
 	);
 	position: fixed;
 	display: block;
@@ -24,25 +17,27 @@ body:after {
 }
 
 html:before {
-	height: 0px;
+	height: 10px;
 	left: 0;
 	right: 0;
 	top: 0;
 }
 html:after {
-	width: 30px;
+	width: 20px;
 	top: 0;
 	right: 0;
 	bottom: 0;
 }
+
 body:before {
 	height: 0px;
 	right: 0;
 	bottom: 0;
 	left: 0;
 }
+
 body:after {
-	width: 30px;
+	width: 20px;
 	top: 0;
 	bottom: 0;
 	left: 0;

@@ -7,7 +7,7 @@ const Landing = props => {
 		<div className="landing-page">
 			<Nav />
 			<div className="intro-wrapper">
-				<div className="name">mattySmith</div>
+				<div className="name">MattySmith</div>
 				<div className="info">
 					web developer | engineer | aspiring polyglot | avid golfer
 				</div>

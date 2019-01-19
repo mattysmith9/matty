@@ -2,12 +2,12 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 6rem;
+	height: 7rem;
 	display: flex;
 	justify-content: flex-end;
 	background-color: #ffffff;
-	border-bottom: #607d8b;
-	border-bottom-style: inset;
+	border-bottom: 7px #8aa2ad;
+	border-bottom-style: outset;
 }
 
 .menu {
@@ -15,16 +15,18 @@ nav {
 	display: flex;
 	flex: 1;
 	justify-content: flex-end;
-	color: #607d8b;
 	text-align: center;
 }
 
 .menu-item {
 	padding: 0.25rem 0;
+	scroll-behavior: smooth;
 	margin: 0 2rem;
-	margin-top: 2rem;
-	font-size: 1.5rem;
+	margin-top: 2.6rem;
+	font-weight: 200;
+	font-size: 1.4rem;
 	font-family: 'Montserrat', sans-serif;
+	color: #4b626d;
 }
 
 .menu-item:hover {
@@ -35,12 +37,20 @@ nav {
 
 .logo-item {
 	padding: 0.5rem 0.5rem;
-	margin: 0 2rem;
-	margin-top: 0.5rem;
-	margin-left: 4rem;
-	color: #607d8b;
-	font-size: 3.25rem;
-	font-family: 'Montserrat', sans-serif;
+	margin-top: 0.2rem;
+	margin-left: 3.5rem;
+	background: -webkit-linear-gradient(
+		#0a1e3a,
+		#234367,
+		#4b6882,
+		#456376,
+		#607d8b
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 200;
+	font-size: 4rem;
+	font-family: 'Poppins', sans-serif;
 }
 
 .logo-item:hover {

@@ -9,29 +9,12 @@
 	background-blend-mode: normal, color-burn;
 }
 
-.intro {
-	color: black;
-	font-size: 1.2rem;
-}
-
-.personal {
-	color: black;
-	font-size: 1.1rem;
-}
-
 .story-wrapper {
 	flex: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-}
-
-.story-title {
-	font-size: 3rem;
-	margin: 1.5rem 0;
-	font-family: 'Montserrat', sans-serif;
-	color: #607d8b;
 }
 
 .story-information {
@@ -43,4 +26,56 @@
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+}
+
+.story-title {
+	font-size: 2.2rem;
+	font-weight: 200;
+	margin: 1.5rem 0;
+	font-family: 'Montserrat', sans-serif;
+	background: -webkit-linear-gradient(
+		#0a1e3a,
+		#234367,
+		#4b6882,
+		#456376,
+		#607d8b
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.quick-facts {
+	font-size: 1.2rem;
+	margin: 1.5rem 0;
+	width: 60%;
+	margin-left: 20%;
+	color: #607d8b;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.more-info {
+	margin: 1.5rem 0;
+	padding-top: 2rem;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	background: -webkit-linear-gradient(
+		#0a1e3a,
+		#234367,
+		#4b6882,
+		#456376,
+		#607d8b
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fuck {
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+	width: 60%;
+	margin-left: 18%;
+	color: #607d8b;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 }
