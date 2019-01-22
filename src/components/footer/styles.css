@@ -1,26 +1,15 @@
-.footer-wrapper {
-	background: #ffffff;
-	height: 15rem;
-	border-top: 7px solid #99aeb8;
-	border-top-style: inset;
-}
-
-.linked {
+.footer {
 	display: flex;
+	flex: 1;
 	justify-content: center;
-}
-
-li {
-	display: block;
-	align-content: center;
-	padding: 0.6em 0.6rem;
-	font-size: 1rem;
-	margin-top: 3rem;
 	text-align: center;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: 4rem;
+	height: 7rem;
+	border-radius: 11px;
 }
 
-img:hover {
-	cursor: pointer;
-	transform: scale(1.2);
-	transition: ease-in-out;
+.social {
+	margin-top: 45px;
 }

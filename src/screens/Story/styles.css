@@ -1,81 +1,50 @@
 .my-story {
-	padding-top: 2rem;
-	min-height: 100vh;
 	display: flex;
-	flex: 0 2 auto;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #ffffff;
-	background-blend-mode: normal, color-burn;
 }
 
-.story-wrapper {
-	flex: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
+.story-heading {
+	font-family: 'Montserrat', sans-serif;
+	color: #607d8b;
+	font-weight: 100;
+	font-size: 2rem;
+	line-height: 4rem;
+	padding-bottom: 2rem;
+	margin-top: 150px;
+	text-align: left;
+	margin-left: 5rem;
 }
 
 .story-information {
-	font-size: 1rem;
-	margin: 1.5rem 0;
+	display: block;
+	width: 70%;
+	margin-left: 12%;
+	padding-top: 1rem;
+	font-size: 1.125rem;
 	font-family: 'Montserrat', sans-serif;
-	color: #607d8b;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+	color: #354a54;
 	text-align: center;
-}
-
-.story-title {
-	font-size: 2.2rem;
-	font-weight: 200;
-	margin: 1.5rem 0;
-	font-family: 'Montserrat', sans-serif;
-	background: -webkit-linear-gradient(
-		#0a1e3a,
-		#234367,
-		#4b6882,
-		#456376,
-		#607d8b
+	background-image: linear-gradient(
+		to bottom,
+		#f7f7f9,
+		#f4f4f7,
+		#f1f1f5,
+		#efeff3,
+		#ececf1
 	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	border: 10px solid #ffffff;
+	border-radius: 15px;
+	padding: 30px;
 }
 
-.quick-facts {
-	font-size: 1.2rem;
-	margin: 1.5rem 0;
-	width: 60%;
-	margin-left: 20%;
-	color: #607d8b;
+.pagination {
+	cursor: pointer;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.more-info {
-	margin: 1.5rem 0;
-	padding-top: 2rem;
-	font-size: 2rem;
-	font-family: 'Montserrat', sans-serif;
-	background: -webkit-linear-gradient(
-		#0a1e3a,
-		#234367,
-		#4b6882,
-		#456376,
-		#607d8b
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.fuck {
-	font-size: 1.2rem;
-	margin: 0.5rem 0;
-	width: 60%;
-	margin-left: 18%;
-	color: #607d8b;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	align-content: center;
+	padding-top: 70px;
+	color: #262626;
 }

@@ -9,7 +9,7 @@ import Skills from './screens/Skills';
 class App extends Component {
 	render() {
 		return (
-			<div className="Matty-Landing-Page">
+			<div className={'Matty-Landing-Page'}>
 				<Landing />
 				<MyStory />
 				<Skills />

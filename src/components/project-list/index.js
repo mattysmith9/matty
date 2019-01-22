@@ -20,9 +20,8 @@ const ProjectItems = (props, context) => {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://github.com/BurlingtonCodeAcademy/startup-vermont"
-						>
-							<button className="source">{'source code'}</button>
-						</a>
+						/>
+						<div className="source">{'source code'}</div>
 					</div>
 				</div>
 				<div className="project-item">
@@ -39,9 +38,8 @@ const ProjectItems = (props, context) => {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://github.com/BurlingtonCodeAcademy/geo-vermonter-with-react-jonathan-and-matty-geo-vermonter"
-						>
-							<button className="source">{'source code'}</button>
-						</a>
+						/>
+						<div className="source">{'source code'}</div>
 					</div>
 				</div>
 				<div className="project-item">
@@ -57,9 +55,8 @@ const ProjectItems = (props, context) => {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://github.com/mattysmith9/mattysmith9"
-						>
-							<button className="source">{'source code'}</button>
-						</a>
+						/>
+						<div className="source">{'source code'}</div>
 					</div>
 				</div>
 				<div className="project-item">
@@ -76,9 +73,8 @@ const ProjectItems = (props, context) => {
 							target="_blank"
 							rel="noopener noreferrer"
 							href="https://github.com/mattysmith9/pomodoro-matty-and-leight-pomodoro"
-						>
-							<button className="source">{'source code'}</button>
-						</a>
+						/>
+						<div className="source">{'source code'}</div>
 					</div>
 				</div>
 			</div>

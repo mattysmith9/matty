@@ -5,9 +5,16 @@ nav {
 	height: 7rem;
 	display: flex;
 	justify-content: flex-end;
-	background-color: #ffffff;
-	border-bottom: 7px #8aa2ad;
-	border-bottom-style: outset;
+	background-image: linear-gradient(
+		to right,
+		#f7f7f9,
+		#f4f4f7,
+		#f1f1f5,
+		#efeff3,
+		#ececf1
+	);
+	border-bottom: 0px #607d8b;
+	border-bottom-style: inset;
 }
 
 .menu {
@@ -26,7 +33,7 @@ nav {
 	font-weight: 200;
 	font-size: 1.4rem;
 	font-family: 'Montserrat', sans-serif;
-	color: #4b626d;
+	color: #262626;
 }
 
 .menu-item:hover {
@@ -37,20 +44,13 @@ nav {
 
 .logo-item {
 	padding: 0.5rem 0.5rem;
-	margin-top: 0.2rem;
-	margin-left: 3.5rem;
-	background: -webkit-linear-gradient(
-		#0a1e3a,
-		#234367,
-		#4b6882,
-		#456376,
-		#607d8b
-	);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	margin-top: 0.3rem;
+	margin-left: 3.2rem;
+	color: #607d8b;
+	text-shadow: 0 5px 8px #262626;
 	font-weight: 200;
 	font-size: 4rem;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .logo-item:hover {

@@ -1,16 +1,15 @@
 .projects-page {
-	padding-top: 2rem;
 	min-height: 100vh;
+	padding-top: 4.5rem;
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 100px;
 }
 
 h1 {
-	padding: 1rem 0;
-	font-size: 3rem;
+	margin-left: 5rem;
+	font-size: 2rem;
 	text-align: center;
 	color: #607d8b;
 	font-family: 'Montserrat', sans-serif;
