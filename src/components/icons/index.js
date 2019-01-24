@@ -8,13 +8,15 @@ const Icons = props => {
 			<div className="icon-content">
 				<div className={'contact-icons'}>
 					<a
+						className="awesome-footer"
 						target="_blank"
 						rel="noopener noreferrer"
 						href={'https://github.com/mattysmith9/'}
 					>
-						<i className="fab fa-github" />
+						<i class="fab fa-github" />
 					</a>
 					<a
+						className="awesome-footer"
 						target="_blank"
 						rel="noopener noreferrer"
 						href={'https://www.linkedin.com/in/mattysmith9/'}
@@ -22,6 +24,7 @@ const Icons = props => {
 						<i class="fab fa-linkedin" />
 					</a>
 					<a
+						className="awesome-footer"
 						target="_blank"
 						rel="noopener noreferrer"
 						href="mailto:matthewcsmith18@gmail.com"
@@ -29,18 +32,12 @@ const Icons = props => {
 						<i class="fas fa-envelope" />
 					</a>
 					<a
+						className="awesome-footer"
 						target="_blank"
 						rel="noopener noreferrer"
 						href="linkto:802.598.8466"
 					>
 						<i class="fas fa-mobile" />
-					</a>
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="linkto:802.598.8466"
-					>
-						<i class="fas fa-file" />
 					</a>
 				</div>
 			</div>

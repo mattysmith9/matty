@@ -1,14 +1,15 @@
 .projects-page {
-	min-height: 100vh;
-	padding-top: 4.5rem;
+	min-height: 115vh;
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
 	justify-content: center;
+	background-color: #ffffff;
 }
 
 h1 {
 	margin-left: 5rem;
+	padding: 0.8rem 0;
 	font-size: 2rem;
 	text-align: center;
 	color: #607d8b;
@@ -24,4 +25,8 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.pagination {
+	padding-bottom: 1rem;
 }

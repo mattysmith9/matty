@@ -18,7 +18,7 @@ class Projects extends Component {
 			<div className="projects-page">
 				<div className="projects-wrapper">
 					<div className="content-grid">
-						<h1>a few projects...</h1>
+						<h1>a few projects I have worked on so far...</h1>
 						<div className="projects-wrapper">
 							<ProjectItems />
 						</div>

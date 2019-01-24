@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Icons from '../../components/icons';
+import DropDown from '../../components/dropdown';
 import './styles.css';
 
 class Footer extends Component {
@@ -13,10 +14,11 @@ class Footer extends Component {
 	render() {
 		return (
 			<div className="footer">
-				<div className="contain">
+				<div className="container">
 					<div class="social">
 						<Icons />
 					</div>
+					<p className="copyright">Page built by Matty Smith 2019</p>
 				</div>
 			</div>
 		);

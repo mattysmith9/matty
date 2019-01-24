@@ -7,35 +7,57 @@ const SkillsList = props => {
 		return (
 			<div className="skill-content">
 				<div className="skill-object">
-					<div className="skill-title">frontEnd</div>
-					<div className="skill-description">
-						<span>
-							Experience with <br />
-							HTML, CSS and JavaScript. I also have Experience building single
-							page applications with React. (Including this page)
-						</span>
+					<div className="skill-title">
+						frontEnd
+						<div className="skill-description">
+							<span>
+								Experience with <br />
+								HTML, CSS and JavaScript fundamentals as well as experience with
+								Create React App building single page applications as well as
+								static sites including this page and a Vermont startup tracker.
+							</span>
+						</div>
+					</div>
+					<div className="code-awesome">
+						<i class="fab fa-js" />
+						<i class="fab fa-react" />
+						<i class="fab fa-html5" />
+						<i class="fab fa-css3-alt" />
 					</div>
 				</div>
 				<div className="skill-object">
-					<div className="skill-title">backEnd</div>
-					<div className="skill-description">
-						<span>
-							Experience with Node.JS, Express, Firebase, MongoDB, MLab and
-							Heroku. I am currently learning more about servers and databases
-							and hope to extend my backEnd knowledge further.
-						</span>
+					<div className="skill-title">
+						backEnd
+						<div className="skill-description">
+							<span>
+								Experience with Node, Express, Firebase, MongoDB, Heroku and
+								source control using Github. I am currently working on extending
+								my knowledge further as I have found the back-end to be very
+								interesting.
+							</span>
+						</div>
+					</div>
+					<div className="code-awesome">
+						<i class="fab fa-node" />
+						<i class="fab fa-github-square" />
+						<i class="fas fa-terminal" />
 					</div>
 				</div>
 				<div className="skill-object">
-					<div className="skill-title">exploring</div>
-					<div className="skill-description">
-						<span>
-							I have found that I am interested in many different aspects of
-							development. I am currently teaching myself Python, Swift and
-							Kotlin for languages. I am also interested in Machine Learning and
-							Data Science. In the near future I plan on getting into Solidity
-							and Blockchain.
-						</span>
+					<div className="skill-title">
+						exploring
+						<div className="skill-description">
+							<span>
+								I am open to learning about anything interesting I come across.
+								At this moment I am starting to experiment with Python and
+								Kotlin on the language side of things. Blockchain has peaked my
+								interest for a while now and I would love to gain some
+								experience in data science and machine learning as well.
+							</span>
+						</div>
+					</div>
+					<div className="code-awesome">
+						<i class="fas fa-chalkboard-teacher" />
 					</div>
 				</div>
 			</div>

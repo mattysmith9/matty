@@ -14,9 +14,9 @@ class Landing extends Component {
 
 	render() {
 		return (
-			<div className="landing-page">
+			<div className="landing-container">
 				<Nav />
-				<div className="intro-wrapper">
+				<div className="intro-circle">
 					<div className="name">mattySmith</div>
 					<div className="info">
 						web developer | engineer | aspiring polyglot | avid golfer

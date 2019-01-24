@@ -1,12 +1,5 @@
 body {
-	background-image: linear-gradient(
-		to right,
-		#f7f7f9,
-		#f4f4f7,
-		#f1f1f5,
-		#efeff3,
-		#ececf1
-	);
+	background-color: #ffffff;
 }
 
 .project-content {
@@ -14,87 +7,68 @@ body {
 	flex: 1;
 	justify-content: center;
 	text-align: center;
-	background-image: linear-gradient(
-		to right,
-		#f7f7f9,
-		#f4f4f7,
-		#f1f1f5,
-		#efeff3,
-		#ececf1
-	);
+	background-color: #ffffff;
+	padding-bottom: 1.2rem;
 }
 
 .project-item {
 	display: flex;
 	flex-direction: column;
-	margin: 0.5rem 0;
 	border-radius: 10px;
 	transition: box-shadow 0.25s;
 	-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-	width: 15rem;
-	margin: 1rem 1rem;
-	border: 8px solid #ffffff;
-	background-image: linear-gradient(
-		to right,
-		#f7f7f9,
-		#f4f4f7,
-		#f1f1f5,
-		#efeff3,
-		#ececf1
-	);
+	width: 18rem;
+	margin: 0.3rem 1rem;
+	padding-bottom: 1rem;
+	border: 5px solid #ffffff;
+	background-color: #ececec;
 }
 
 .project-item--title {
+	color: #607d8b;
 	flex: 1;
-	padding: 1rem 1.5rem;
-	font-size: 1.125rem;
+	padding: 1rem 1rem;
+	font-size: 1.4rem;
 	font-weight: 500;
+	align-items: center;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	color: #607d8b;
 }
 
 .project-item--desc {
 	display: flex;
-	padding: 0 0.5rem;
-	font-size: 0.8rem;
+	flex-direction: column;
+	padding: 0.3rem 0.5rem;
+	align-items: center;
+	font-size: 1rem;
 	font-weight: 500;
 	line-height: 1.25rem;
-	margin-bottom: 40px;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
 	color: #262626;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .project-item--links {
-	padding: 0 0 0.75rem;
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-	font-size: 1.4rem;
-	font-weight: 400;
-	border-top: 1px solid #262626;
-	font-family: 'Montserrat', sans-serif;
+	background-color: #ececec;
+	border-top: 5px solid #ffffff;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-top: 0.5rem;
+}
+
+.awesome-source {
+	font-size: 2.5rem;
+	margin-right: 5px;
+	align-content: center;
+	padding: 0.1rem 0.4rem;
+	color: #20272b;
+	mix-blend-mode: color-burn;
+	text-shadow: 4px 4px 8px #262626, 0 0 25px #ffffff, 0 0 5px #b8cad0;
 }
 
 a {
 	text-decoration: none;
-}
-
-.source {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	margin-right: 20px;
-	text-align: center;
-	padding-top: 0.5rem;
-	color: #607d8b;
-	border: none;
-	align-self: auto;
-}
-
-.source:hover {
-	cursor: pointer;
-	transform: scale(1.2);
-	color: red;
 }

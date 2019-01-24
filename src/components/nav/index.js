@@ -21,7 +21,7 @@ class Nav extends Component {
 				<div className="logo">
 					<div
 						className="logo-item active"
-						onClick={e => this.scrollToScreen('.landing-page')}
+						onClick={e => this.scrollToScreen('.landing-container')}
 					>
 						M
 					</div>
