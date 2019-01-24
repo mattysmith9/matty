@@ -64,11 +64,28 @@ body {
 	margin-right: 5px;
 	align-content: center;
 	padding: 0.1rem 0.4rem;
-	color: #20272b;
-	mix-blend-mode: color-burn;
-	text-shadow: 4px 4px 8px #262626, 0 0 25px #ffffff, 0 0 5px #b8cad0;
+	color: #56667c;
+	text-shadow: 4px 6px 8px #ececec, 0 0 25px #ececec, 0 0 5px #b8cad0;
 }
 
 a {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	.project-content,
+	.project-item,
+	.project-item--links {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.project-content,
+	.project-item,
+	.project-item--links {
+		float: none;
+		width: 100%;
+	}
 }

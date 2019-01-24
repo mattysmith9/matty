@@ -3,13 +3,18 @@
 	flex: 1;
 	justify-content: center;
 	text-align: center;
-	color: #262626;
 	width: 100%;
-	height: 20rem;
+	height: 25rem;
 	background-color: #ececec;
 	font-family: 'Montserrat', sans-serif;
 }
 
 .copyright {
 	font-size: 1.2rem;
+	margin-top: 2rem;
+	color: #56667c;
+}
+
+.social {
+	margin-top: 25px;
 }

@@ -26,9 +26,11 @@ class Skills extends Component {
 				</div>
 				<div className="pagination">
 					<i
-						class="fas fa-caret-down"
+						class="fas fa-arrow-down"
 						onClick={e => this.scrollToScreen('.projects-page')}
-					/>
+					>
+						<p className="pagination-text">{'projects'}</p>
+					</i>
 				</div>
 			</div>
 		);

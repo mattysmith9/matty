@@ -24,9 +24,11 @@ class Landing extends Component {
 				</div>
 				<div className="pagination">
 					<i
-						class="fas fa-caret-down"
+						class="fas fa-arrow-down"
 						onClick={e => this.scrollToScreen('.my-story')}
-					/>
+					>
+						<p className="pagination-text">{'my story'}</p>
+					</i>
 				</div>
 			</div>
 		);

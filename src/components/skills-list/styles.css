@@ -49,16 +49,35 @@
 	border-top: 5px solid #ffffff;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-  padding-top: 0.5rem;
+	padding-top: 0.5rem;
 }
 
 .code-awesome i {
-	font-size: 2.5rem;
+	font-size: 2.4rem;
 	margin-right: 5px;
 	margin-bottom: 10px;
 	align-content: center;
 	padding: 0.1rem 0.4rem;
-	color: #20272b;
-	mix-blend-mode: color-burn;
-	text-shadow: 4px 4px 8px #262626, 0 0 25px #ffffff, 0 0 5px #b8cad0;
+	color: #56667c;
+	text-shadow: 4px 4px 8px #ececec, 0 0 25px #ffffff, 0 0 5px #b8cad0;
+}
+
+@media screen and (max-width: 800px) {
+	.skill-content,
+	.skill-object,
+	.skill-description,
+	.code-awesome i {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.skill-content,
+	.skill-object,
+	.skill-description,
+	.code-awesome i {
+		width: 100%;
+		padding: 0;
+	}
 }

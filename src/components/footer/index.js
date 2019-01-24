@@ -18,7 +18,7 @@ class Footer extends Component {
 					<div class="social">
 						<Icons />
 					</div>
-					<p className="copyright">Page built by Matty Smith 2019</p>
+					<p className="copyright">*Page built by Matty Smith 2019*</p>
 				</div>
 			</div>
 		);

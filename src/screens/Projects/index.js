@@ -26,9 +26,11 @@ class Projects extends Component {
 				</div>
 				<div className="pagination">
 					<i
-						class="fas fa-caret-down"
+						class="fas fa-arrow-down"
 						onClick={e => this.scrollToScreen('.footer')}
-					/>
+					>
+						<p className="pagination-text">{'get in touch'}</p>
+					</i>
 				</div>
 			</div>
 		);

@@ -15,19 +15,18 @@
 	justify-content: center;
 	background-color: #ececec;
 	align-items: center;
-	border-radius: 10px;
 	width: 100%;
-	height: 27rem;
+	height: 30rem;
 	flex-direction: column;
 }
 
 .name {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	color: #20272b;
-	text-shadow: 4px 4px 8px #262626, 0 0 25px #ffffff, 0 0 5px #b8cad0;
+	text-shadow: 7px 7px 10px #262626, 0 0 25px #ffffff, 0 0 5px #b8cad0;
 	mix-blend-mode: color-burn;
-	font-size: 8rem;
-	letter-spacing: -0.4rem;
+	font-size: 9rem;
+	letter-spacing: -0.7rem;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -42,10 +41,35 @@
 }
 
 .pagination {
-	font-size: 4rem;
+	font-size: 2.5rem;
 	display: flex;
 	justify-content: center;
 	cursor: pointer;
 	padding-bottom: 0rem;
-	color: #262626;
+}
+
+.pagination-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	.landing-container,
+	.intro-circle,
+	.name,
+	.info {
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.landing-container,
+	.intro-circle,
+	.name,
+	.info {
+		float: none;
+		width: 100%;
+	}
 }
