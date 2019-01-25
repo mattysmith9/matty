@@ -1,7 +1,7 @@
 {
 	"name": "mattysmith9.github.io",
 	"version": "0.1.0",
-	"homepage": "https://mattysmith.co",
+	"homepage": "https://mattysmith9.github.io/mattysmith9.github.io",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.12",
