@@ -18,7 +18,9 @@ class Skills extends Component {
 			<div className="skills-page">
 				<div className="skills-wrapper">
 					<div className="content-grid">
-						<h1>skills, qualifications & interests...</h1>
+						<h1 className="skill-header">
+							skills, qualifications & interests...
+						</h1>
 						<div className="skills-wrapper">
 							<SkillsList />
 						</div>
