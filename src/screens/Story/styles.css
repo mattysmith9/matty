@@ -4,6 +4,7 @@ body {
 
 .my-story {
 	display: flex;
+	flex: 1;
 	flex-direction: column;
 	justify-content: center;
 	background-color: #ffffff;
@@ -14,9 +15,9 @@ body {
 	color: #607d8b;
 	font-weight: 100;
 	font-size: 2rem;
-	line-height: 4rem;
+	line-height: 3.5rem;
 	padding-bottom: 2rem;
-	margin-top: 125px;
+	margin-top: 90px;
 	text-align: left;
 	margin-left: 5rem;
 	background-color: #ffffff;
@@ -27,7 +28,7 @@ body {
 	width: 70%;
 	height: 20rem;
 	margin-left: 13%;
-	padding-top: 1rem;
+	padding-top: 0.8rem;
 	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
 	-webkit-box-shadow: 10px 10px 15px 20px rgba(0, 0, 0, 0.4);
@@ -41,7 +42,7 @@ body {
 }
 
 .story-information b {
-	color: #607d8b;
+	color: #56667c;
 }
 
 .pagination {
@@ -49,7 +50,7 @@ body {
 	cursor: pointer;
 	text-align: center;
 	align-content: center;
-	padding-top: 65px;
+	padding-top: 60px;
 	color: #262626;
 }
 
