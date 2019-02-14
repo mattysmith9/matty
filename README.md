@@ -1,7 +1,11 @@
-# My Personal Portfolio Page
+## My personal portfolio page 
 
-A single page app to showcase a couple of projects and tell you more about myself.
+### Master branch
+Kotlin basics and snippets
 
-The project was bootstrapped with Create React App and deployed with gh-pages.
+### Tutorial branch
+Basic web app implementing **MVC** via 
+- www.raywenderlich.com
 
-It is still a work in progress....
+### Blockchain branch
+Very basic blockchain implementation using Kotlin
