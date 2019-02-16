@@ -13,7 +13,7 @@
 	margin-bottom: 2rem;
 	margin-top: 2rem;
 	text-align: left;
-	color: #607d8b;
+	color: #697c85;
 	font-family: 'Comfortaa', cursive;
 	font-weight: 100;
 }
@@ -32,7 +32,7 @@
 .pagination {
 	padding-bottom: 0.3rem;
 	font-size: 2.5rem;
-	color: #56667c;
+	color: #697c85;
 }
 
 .pagination-text {
@@ -40,6 +40,7 @@
 	font-size: 1rem;
 	text-align: center;
 	margin-bottom: 1.5rem;
+  color: #697c85;
 }
 
 @media screen and (max-width: 800px) {

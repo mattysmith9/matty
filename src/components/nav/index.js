@@ -45,12 +45,8 @@ class Nav extends Component {
 					>
 						projects
 					</div>
-					<div
-						className="menu-item"
-						onClick={e => this.scrollToScreen('.footer')}
-					>
-						{' '}
-						getInTouch
+					<div className="menu-item" onClick={e => this.scrollToScreen('.footer')}>
+						{' '}getInTouch
 					</div>
 				</div>
 			</nav>

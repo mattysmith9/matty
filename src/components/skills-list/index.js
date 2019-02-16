@@ -13,8 +13,8 @@ const SkillsList = props => {
 							<span>
 								Experience with <br />
 								HTML, CSS and JavaScript fundamentals as well as experience with
-								Create React App building single page applications as well as
-								static sites including this page and a Vermont startup tracker.
+								Create React App building single page applications as well as static
+								sites including this page and a Vermont startup tracker.
 							</span>
 						</div>
 					</div>
@@ -30,9 +30,9 @@ const SkillsList = props => {
 						backEnd
 						<div className="skill-description">
 							<span>
-								Experience with Node, Express, Firebase, MongoDB, Heroku and
-								source control using Github. I am currently working on extending
-								my knowledge further as I have found the back-end to be very
+								Experience with Node, Express, Firebase, MongoDB, Heroku and source
+								control using Github. I am currently working on extending my
+								knowledge further as I have found the back-end to be very
 								interesting.
 							</span>
 						</div>
@@ -48,11 +48,11 @@ const SkillsList = props => {
 						exploring
 						<div className="skill-description">
 							<span>
-								I am open to learning about anything interesting I come across.
-								At this moment I am starting to experiment with Python and
-								Kotlin on the language side of things. Blockchain has peaked my
-								interest for a while now and I would love to gain some
-								experience in data science and machine learning as well.
+								I am open to learning about anything interesting I come across. At
+								this moment I am starting to experiment with Python and Kotlin on the
+								language side of things. Blockchain has peaked my interest for a
+								while now and I would love to gain some experience in data science
+								and machine learning as well.
 							</span>
 						</div>
 					</div>

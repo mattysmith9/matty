@@ -15,11 +15,11 @@
 	justify-content: center;
 	background-image: linear-gradient(
 		to top,
-		#ececec,
-		#e5e5e5,
-		#dfdfdf,
-		#d8d8d8,
-		#d2d2d2
+		#697c85,
+		#6c7f88,
+		#6f828b,
+		#72868f,
+		#758992
 	);
 	align-items: center;
 	width: 100%;
@@ -28,12 +28,12 @@
 }
 
 .name {
-	font-family: 'Comfortaa', cursive;
-	color: #364149;
-	text-shadow: 5px 6px 10px #262626, 0 0 25px #ffffff, 0 0 10px #acacac;
-	mix-blend-mode: color-burn;
+	font-family: 'Montserrat', cursive;
+	color: #202085;
+	mix-blend-mode: luminosity;
 	font-size: 9rem;
-	letter-spacing: -0.7rem;
+	text-shadow: 4px 4px 10px #aaaaaa;
+	letter-spacing: -0.6rem;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -43,7 +43,7 @@
 	font-size: 1.3rem;
 	margin: 0.3rem 0;
 	font-family: 'Montserrat', sans-serif;
-	color: #262626;
+	color: #d9d9d9;
 	text-align: center;
 }
 
@@ -53,12 +53,14 @@
 	justify-content: center;
 	cursor: pointer;
 	padding-bottom: 0rem;
+	color: #697c85;
 }
 
 .pagination-text {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1rem;
 	text-align: center;
+	color: #697c85;
 }
 
 @media screen and (max-width: 800px) {
