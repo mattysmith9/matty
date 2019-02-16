@@ -27,17 +27,10 @@ const Icons = props => {
 						className="awesome-footer"
 						target="_blank"
 						rel="noopener noreferrer"
-						href="mailto:matthewcsmith18@gmail.com"
+						href="mailto:matthewcsmith18@gmail.com?Subject=Contact%20Matty"
+						target="_top"
 					>
 						<i class="fas fa-envelope" />
-					</a>
-					<a
-						className="awesome-footer"
-						target="_blank"
-						rel="noopener noreferrer"
-						href="linkto:802.598.8466"
-					>
-						<i class="fas fa-mobile" />
 					</a>
 				</div>
 			</div>
