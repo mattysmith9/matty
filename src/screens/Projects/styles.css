@@ -42,22 +42,8 @@
 	margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 800px) {
-	.projects-page,
-	.projects-wrapper,
-	.content-grid,
-	h1 {
-		width: 100%;
-		padding: 0;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.projects-page,
-	.projects-wrapper,
-	.content-grid,
-	h1 {
-		float: none;
+@media only screen and (max-width: 480px) {
+	.projects-page .project-header .projects-wrapper .content-grid {
 		width: 100%;
 	}
 }

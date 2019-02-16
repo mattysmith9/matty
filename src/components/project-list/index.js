@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-const ProjectItems = (props, context) => {
+const ProjectItems = props => {
 	if (props.render) return props.render;
 	else
 		return (
@@ -13,8 +13,8 @@ const ProjectItems = (props, context) => {
 							<span>
 								The startup tracker is a website for LauncVT that tracks local
 								startup activity in the state of Vermont. It is still a work in
-								progress and It was built using React, NodeJS, Express, MongoDB,
-								MLab and deployed via Heroku. More additions to come...
+								progress and It was built using React, NodeJS, Express, MongoDB, MLab
+								and deployed via Heroku. More additions to come...
 							</span>
 						</div>
 					</div>
@@ -34,9 +34,9 @@ const ProjectItems = (props, context) => {
 						geoVermonter
 						<div className="project-item--desc">
 							<span>
-								A fun remake of Googles GeoGuesser app. We made the borders
-								smaller only allowing the State of Vermont. We used React for
-								the front end with geoJSON and Node for the back end.
+								A fun remake of Googles GeoGuesser app. We made the borders smaller
+								only allowing the State of Vermont. We used React for the front end
+								with geoJSON and Node for the back end.
 							</span>
 						</div>
 					</div>
@@ -56,9 +56,9 @@ const ProjectItems = (props, context) => {
 						my portfolio page
 						<div className="project-item--desc">
 							<span>
-								My first personal portfolio page to showcase a bit about myself.
-								The app was bootstrapped with Create React App and I used Surge
-								for static web publishing.
+								My first personal portfolio page to showcase a bit about myself. The
+								app was bootstrapped with Create React App and I used Surge for
+								static web publishing.
 							</span>
 						</div>
 					</div>
@@ -78,9 +78,8 @@ const ProjectItems = (props, context) => {
 						pomodoro timer
 						<div className="project-item--desc">
 							<span>
-								A fun take on the famous Pomodoro technique. It is a simple
-								example of a Pomodoro Timer built with vanilla JavaScript, HTML
-								and CSS.
+								A fun take on the famous Pomodoro technique. It is a simple example
+								of a Pomodoro Timer built with vanilla JavaScript, HTML and CSS.
 							</span>
 						</div>
 					</div>

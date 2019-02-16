@@ -51,10 +51,8 @@ body {
 	text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-	.skills-page,
-	.skills-wrapper {
+@media only screen and (max-width: 480px) {
+	.skills-page .skill-header .skills-wrapper {
 		width: 100%;
-		padding: 0;
 	}
 }

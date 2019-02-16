@@ -54,22 +54,8 @@
 	text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-	.landing-container,
-	.intro-circle,
-	.name,
-	.info {
-		width: 100%;
-		padding: 0;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.landing-container,
-	.intro-circle,
-	.name,
-	.info {
-		float: none;
+@media only screen and (max-width: 480px) {
+	.landing-container .intro-circle .name .info {
 		width: 100%;
 	}
 }

@@ -1,15 +1,15 @@
 {
-  "short_name": "Matty Smith",
-  "name": "Personal Portfolio for Matty Smith",
-  "icons": [
-    {
-      "src": "matty.png",
-      "sizes": "32x32 48x48",
-      "type": "image/png"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+	"short_name": "Matty Smith",
+	"name": "Personal Portfolio for Matty Smith",
+	"icons": [
+		{
+			"src": "matty.png",
+			"sizes": "32x32 48x48",
+			"type": "image/png"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
 }
