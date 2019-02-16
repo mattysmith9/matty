@@ -12,11 +12,11 @@ body {
 
 .story-heading {
 	font-family: 'Comfortaa', cursive;
-	color: #607d8b;
+	color: #697c85;
 	font-weight: 100;
 	font-size: 2rem;
 	line-height: 3.5rem;
-	padding-bottom: 2rem;
+	padding-top: 2rem;
 	margin-top: 90px;
 	text-align: left;
 	margin-left: 5rem;
@@ -31,18 +31,15 @@ body {
 	padding-top: 0.8rem;
 	font-size: 1.2rem;
 	font-family: 'Montserrat', sans-serif;
-	-webkit-box-shadow: 10px 10px 15px 20px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 5px 15px 20px rgba(0, 0, 0, 0.4);
-	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 	color: #262626;
 	text-align: center;
-	background-color: #ececec;
+	background-color: #ffffff;
 	padding: 30px;
 	border-radius: 5px;
 }
 
 .story-information b {
-	color: #56667c;
+	color: #697c85;
 }
 
 .pagination {
