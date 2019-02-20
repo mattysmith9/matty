@@ -57,8 +57,8 @@ const ProjectItems = (props, context) => {
 						<div className="project-item--desc">
 							<span>
 								My first personal portfolio page to showcase a bit about myself. The
-								app was bootstrapped with Create React App and I used Surge for
-								static web publishing.
+								page was bootstrapped with Create React App. Building the page was a
+								good oppurtunity to deploy a webpage with a custom domain name.
 							</span>
 						</div>
 					</div>

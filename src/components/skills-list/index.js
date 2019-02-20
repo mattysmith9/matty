@@ -30,10 +30,10 @@ const SkillsList = props => {
 						backEnd
 						<div className="skill-description">
 							<span>
-								Experience with Node, Express, Firebase, MongoDB, Heroku and source
-								control using Github. I am currently working on extending my
-								knowledge further as I have found the back-end to be very
-								interesting.
+								Experience with Node, Express, Firebase, MongoDB, AWS, Heroku and
+								source control using Git and Github. I am currently working on
+								extending my knowledge further as I have found the back-end to be
+								very interesting.
 							</span>
 						</div>
 					</div>
