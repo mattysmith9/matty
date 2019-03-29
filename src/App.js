@@ -7,17 +7,17 @@ import Footer from './components/footer';
 import Skills from './screens/Skills';
 
 class App extends Component {
-	render() {
-		return (
-			<div className={'Matty-Landing-Page'}>
-				<Landing />
-				<MyStory />
-				<Skills />
-				<Projects />
-				<Footer />
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div className={'Matty-Landing-Page'}>
+        <Landing />
+        <MyStory />
+        <Skills />
+        <Projects />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

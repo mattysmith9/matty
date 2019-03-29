@@ -1,20 +1,20 @@
 .footer {
-	display: flex;
-	flex: 1;
-	justify-content: center;
-	text-align: center;
-	width: 100%;
-	height: 25rem;
-	background-color: #ffffff;
-	font-family: 'Comfortaa', cursive;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 25rem;
+  background-color: #ffffff;
+  font-family: 'Comfortaa', cursive;
 }
 
 .copyright {
-	font-size: 1.2rem;
-	margin-top: 2rem;
-	color: #697c85;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #697c85;
 }
 
 .social {
-	margin-top: 25px;
+  margin-top: 25px;
 }

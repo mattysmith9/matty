@@ -1,75 +1,75 @@
 .landing-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	position: relative;
-	flex: 0 1 auto;
-	padding-top: 4rem;
-	overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  flex: 0 1 auto;
+  padding-top: 4rem;
+  overflow: hidden;
 }
 
 .intro-circle {
-	display: flex;
-	justify-content: center;
-	background-color: #2F404E;
-	align-items: center;
-	width: 100%;
-	height: 28rem;
-	flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-color: #2f404e;
+  align-items: center;
+  width: 100%;
+  height: 28rem;
+  flex-direction: column;
 }
 
 .name {
-	font-family: 'Montserrat', cursive;
-	color: #FFF9EF;
-	font-size: 9rem;
-	letter-spacing: -0.6rem;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+  font-family: 'Montserrat', cursive;
+  color: #fff9ef;
+  font-size: 9rem;
+  letter-spacing: -0.6rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .info {
-	font-size: 1.3rem;
-	margin: 0.3rem 0;
-	font-family: 'Montserrat', sans-serif;
-	color: #FFF9EF;
-	text-align: center;
+  font-size: 1.3rem;
+  margin: 0.3rem 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff9ef;
+  text-align: center;
 }
 
 .pagination {
-	font-size: 2.5rem;
-	display: flex;
-	justify-content: center;
-	cursor: pointer;
-	padding-bottom: 0rem;
-	color: #697c85;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 0rem;
+  color: #697c85;
 }
 
 .pagination-text {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	text-align: center;
-	color: #697c85;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #697c85;
 }
 
 @media screen and (max-width: 800px) {
-	.landing-container,
-	.intro-circle,
-	.name,
-	.info {
-		width: 100%;
-		padding: 0;
-	}
+  .landing-container,
+  .intro-circle,
+  .name,
+  .info {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
-	.landing-container,
-	.intro-circle,
-	.name,
-	.info {
-		float: none;
-		width: 100%;
-	}
+  .landing-container,
+  .intro-circle,
+  .name,
+  .info {
+    float: none;
+    width: 100%;
+  }
 }

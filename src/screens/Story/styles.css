@@ -1,67 +1,67 @@
 body {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .my-story {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-	justify-content: center;
-	background-color: #ffffff;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
 }
 
 .story-heading {
-	font-family: 'Comfortaa', cursive;
-	color: #697c85;
-	font-weight: 100;
-	font-size: 2rem;
-	line-height: 3.5rem;
-	padding-top: 2rem;
-	margin-top: 90px;
-	text-align: left;
-	margin-left: 5rem;
-	background-color: #ffffff;
+  font-family: 'Comfortaa', cursive;
+  color: #697c85;
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 3.5rem;
+  padding-top: 2rem;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: 5rem;
+  background-color: #ffffff;
 }
 
 .story-information {
-	display: block;
-	width: 70%;
-	height: 20rem;
-	margin-left: 13%;
-	padding-top: 0.8rem;
-	font-size: 1.2rem;
-	font-family: 'Montserrat', sans-serif;
-	color: #2F404E;
-	text-align: center;
-	background-color: #ffffff;
-	padding: 30px;
-	border-radius: 5px;
+  display: block;
+  width: 70%;
+  height: 20rem;
+  margin-left: 13%;
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2f404e;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
 }
 
 .story-information b {
-	color: #697c85;
+  color: #697c85;
 }
 
 .pagination {
-	font-size: 2.5rem;
-	cursor: pointer;
-	text-align: center;
-	align-content: center;
-	padding-top: 60px;
-	color: #697c85;
+  font-size: 2.5rem;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+  padding-top: 60px;
+  color: #697c85;
 }
 
 .pagination-text {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1rem;
-	text-align: center;
-	color: #697c85;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #697c85;
 }
 
 @media screen and (max-width: 800px) {
-	.my-story,
-	.story-information {
-		width: 100%;
-		padding: 0;
-	}
+  .my-story,
+  .story-information {
+    width: 100%;
+    padding: 0;
+  }
 }
